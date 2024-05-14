@@ -27,4 +27,4 @@ This project uses a `EVB.yml` file for managing dependencies. To install, follow
 After installation, you can run the code of the project, see the python notebook for details
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is not yet licensed in any way
