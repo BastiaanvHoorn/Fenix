@@ -1,0 +1,13 @@
+name: echem
+channels:
+  - conda-forge
+  - veloxchem
+dependencies:
+  - python>=3.8
+  - veloxchem
+  - openmm
+  - openmmforcefields 
+  - openff-toolkit
+  - pymbar
+  - matplotlib
+  - numpy
