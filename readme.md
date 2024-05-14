@@ -24,8 +24,7 @@ This project uses a `EVB.yml` file for managing dependencies. To install, follow
     conda activate evb
 
 ## Usage
-After installation, you can run the project using the command python main.py (replace main.py with the actual entry point of your project).
-see the echem notebooks for details
+After installation, you can run the code of the project, see the python notebook for details
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
