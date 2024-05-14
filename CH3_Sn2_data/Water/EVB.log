@@ -1,0 +1,414 @@
+* Warning * Environment variable OMP_NUM_THREADS not set.
+* Warning * Setting OMP_NUM_THREADS to 32.
+Loading charges from the disk
+The formal charge for atom 4 is set to -1
+Starting packing system
+Finished packing system
+Creating system
+Finished creating system
+Lambda:  [0.    0.01  0.02  0.03  0.04  0.05  0.06  0.07  0.08  0.09  0.1   0.125
+ 0.15  0.175 0.2   0.225 0.25  0.275 0.3   0.325 0.35  0.375 0.4   0.425
+ 0.45  0.46  0.47  0.48  0.49  0.5   0.51  0.52  0.53  0.54  0.55  0.575
+ 0.6   0.625 0.65  0.675 0.7   0.725 0.75  0.775 0.8   0.81  0.82  0.83
+ 0.84  0.85  0.86  0.87  0.88  0.89  0.9   0.91  0.92  0.93  0.94  0.95
+ 0.96  0.97  0.98  0.99  1.   ]
+Total lambda points:  65
+Snapshots per lambda:  100.0
+Snapshots to be recorded:  6500.0
+Total simulation steps:  13620000
+System time per snapshot:  2.0  ps
+System time per frame:  200.0  ps
+Total system time:  13000.0  ps
+lambda = 0.0
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.01, estimated time remaining: 35 minute(s), 17 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.02, estimated time remaining: 28 minute(s), 49 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.03, estimated time remaining: 26 minute(s), 24 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.04, estimated time remaining: 25 minute(s), 3 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.05, estimated time remaining: 24 minute(s), 6 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.06, estimated time remaining: 23 minute(s), 23 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.07, estimated time remaining: 22 minute(s), 46 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.08, estimated time remaining: 22 minute(s), 14 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.09, estimated time remaining: 21 minute(s), 43 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.1, estimated time remaining: 21 minute(s), 14 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.125, estimated time remaining: 20 minute(s), 47 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.15, estimated time remaining: 20 minute(s), 21 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.175, estimated time remaining: 19 minute(s), 55 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.2, estimated time remaining: 19 minute(s), 30 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.225, estimated time remaining: 19 minute(s), 5 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.25, estimated time remaining: 18 minute(s), 40 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.275, estimated time remaining: 18 minute(s), 16 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.3, estimated time remaining: 17 minute(s), 52 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.325, estimated time remaining: 17 minute(s), 28 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.35, estimated time remaining: 17 minute(s), 5 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.375, estimated time remaining: 16 minute(s), 41 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.4, estimated time remaining: 16 minute(s), 18 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.425, estimated time remaining: 15 minute(s), 54 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.45, estimated time remaining: 15 minute(s), 31 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.46, estimated time remaining: 15 minute(s), 8 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.47, estimated time remaining: 14 minute(s), 45 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.48, estimated time remaining: 14 minute(s), 22 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.49, estimated time remaining: 13 minute(s), 59 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.5, estimated time remaining: 13 minute(s), 36 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.51, estimated time remaining: 13 minute(s), 13 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.52, estimated time remaining: 12 minute(s), 50 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.53, estimated time remaining: 12 minute(s), 27 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.54, estimated time remaining: 12 minute(s), 4 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.55, estimated time remaining: 11 minute(s), 41 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.575, estimated time remaining: 11 minute(s), 18 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.6, estimated time remaining: 10 minute(s), 56 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.625, estimated time remaining: 10 minute(s), 33 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.65, estimated time remaining: 10 minute(s), 10 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.675, estimated time remaining: 9 minute(s), 48 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.7, estimated time remaining: 9 minute(s), 25 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.725, estimated time remaining: 9 minute(s), 2 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.75, estimated time remaining: 8 minute(s), 40 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.775, estimated time remaining: 8 minute(s), 17 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.8, estimated time remaining: 7 minute(s), 54 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.81, estimated time remaining: 7 minute(s), 32 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.82, estimated time remaining: 7 minute(s), 9 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.83, estimated time remaining: 6 minute(s), 46 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.84, estimated time remaining: 6 minute(s), 24 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.85, estimated time remaining: 6 minute(s), 1 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.86, estimated time remaining: 5 minute(s), 38 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.87, estimated time remaining: 5 minute(s), 16 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.88, estimated time remaining: 4 minute(s), 53 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.89, estimated time remaining: 4 minute(s), 31 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.9, estimated time remaining: 4 minute(s), 8 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.91, estimated time remaining: 3 minute(s), 45 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.92, estimated time remaining: 3 minute(s), 23 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.93, estimated time remaining: 3 minute(s), 0 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.94, estimated time remaining: 2 minute(s), 38 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.95, estimated time remaining: 2 minute(s), 15 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.96, estimated time remaining: 1 minute(s), 52 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.97, estimated time remaining: 1 minute(s), 30 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.98, estimated time remaining: 1 minute(s), 7 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.99, estimated time remaining: 45 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 1.0, estimated time remaining: 22 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+Merging output files
+merging pdb files
+Lambda =  0.0
+Lambda =  0.01
+Lambda =  0.02
+Lambda =  0.03
+Lambda =  0.04
+Lambda =  0.05
+Lambda =  0.06
+Lambda =  0.07
+Lambda =  0.08
+Lambda =  0.09
+Lambda =  0.1
+Lambda =  0.125
+Lambda =  0.15
+Lambda =  0.175
+Lambda =  0.2
+Lambda =  0.225
+Lambda =  0.25
+Lambda =  0.275
+Lambda =  0.3
+Lambda =  0.325
+Lambda =  0.35
+Lambda =  0.375
+Lambda =  0.4
+Lambda =  0.425
+Lambda =  0.45
+Lambda =  0.46
+Lambda =  0.47
+Lambda =  0.48
+Lambda =  0.49
+Lambda =  0.5
+Lambda =  0.51
+Lambda =  0.52
+Lambda =  0.53
+Lambda =  0.54
+Lambda =  0.55
+Lambda =  0.575
+Lambda =  0.6
+Lambda =  0.625
+Lambda =  0.65
+Lambda =  0.675
+Lambda =  0.7
+Lambda =  0.725
+Lambda =  0.75
+Lambda =  0.775
+Lambda =  0.8
+Lambda =  0.81
+Lambda =  0.82
+Lambda =  0.83
+Lambda =  0.84
+Lambda =  0.85
+Lambda =  0.86
+Lambda =  0.87
+Lambda =  0.88
+Lambda =  0.89
+Lambda =  0.9
+Lambda =  0.91
+Lambda =  0.92
+Lambda =  0.93
+Lambda =  0.94
+Lambda =  0.95
+Lambda =  0.96
+Lambda =  0.97
+Lambda =  0.98
+Lambda =  0.99
+Lambda =  1.0
+merging ETV files
+Recalculating Lambda 0.0
+Recalculating Lambda 0.01, estimated time remaining: 4 minute(s), 56 second(s)
+Recalculating Lambda 0.02, estimated time remaining: 4 minute(s), 39 second(s)
+Recalculating Lambda 0.03, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.04, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.05, estimated time remaining: 4 minute(s), 40 second(s)
+Recalculating Lambda 0.06, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.07, estimated time remaining: 4 minute(s), 36 second(s)
+Recalculating Lambda 0.08, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.09, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.1, estimated time remaining: 4 minute(s), 36 second(s)
+Recalculating Lambda 0.125, estimated time remaining: 4 minute(s), 36 second(s)
+Recalculating Lambda 0.15, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.175, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.2, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.225, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.25, estimated time remaining: 4 minute(s), 36 second(s)
+Recalculating Lambda 0.275, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.3, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.325, estimated time remaining: 4 minute(s), 36 second(s)
+Recalculating Lambda 0.35, estimated time remaining: 4 minute(s), 36 second(s)
+Recalculating Lambda 0.375, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.4, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.425, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.45, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.46, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.47, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.48, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.49, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.5, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.51, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.52, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.53, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.54, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.55, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.575, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.6, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.625, estimated time remaining: 4 minute(s), 37 second(s)
+Recalculating Lambda 0.65, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.675, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.7, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.725, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.75, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.775, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.8, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.81, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.82, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.83, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.84, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.85, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.86, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.87, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.88, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.89, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.9, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.91, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.92, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.93, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.94, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.95, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.96, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.97, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.98, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 0.99, estimated time remaining: 4 minute(s), 38 second(s)
+Recalculating Lambda 1.0, estimated time remaining: 4 minute(s), 38 second(s)

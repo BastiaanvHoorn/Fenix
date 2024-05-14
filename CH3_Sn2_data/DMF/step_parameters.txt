@@ -1,0 +1,5 @@
+equil_steps: 20000
+total_sample_steps: 400000
+write_step: 4000
+initial_equil_steps: 0
+step_size: 0.001

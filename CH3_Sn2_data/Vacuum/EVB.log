@@ -1,0 +1,812 @@
+* Warning * Environment variable OMP_NUM_THREADS not set.
+* Warning * Setting OMP_NUM_THREADS to 32.
+* Info * Using 6-31G* basis set for RESP charges...                                                                       
+                                                                                                                          
+                                            Self Consistent Field Driver Setup                                            
+                                           ====================================                                           
+                                                                                                                          
+                   Wave Function Model             : Spin-Restricted Hartree-Fock                                         
+                   Initial Guess Model             : Superposition of Atomic Densities                                    
+                   Convergence Accelerator         : Two Level Direct Inversion of Iterative Subspace                     
+                   Max. Number of Iterations       : 50                                                                   
+                   Max. Number of Error Vectors    : 10                                                                   
+                   Convergence Threshold           : 1.0e-06                                                              
+                   ERI Screening Scheme            : Cauchy Schwarz + Density                                             
+                   ERI Screening Mode              : Dynamic                                                              
+                   ERI Screening Threshold         : 1.0e-12                                                              
+                   Linear Dependence Threshold     : 1.0e-06                                                              
+                                                                                                                          
+* Info * Nuclear repulsion energy: 158.7464300499 a.u.                                                                    
+                                                                                                                          
+* Info * Overlap matrix computed in 0.00 sec.                                                                             
+                                                                                                                          
+* Info * Kinetic energy matrix computed in 0.00 sec.                                                                      
+                                                                                                                          
+* Info * Nuclear potential matrix computed in 0.00 sec.                                                                   
+                                                                                                                          
+* Info * Orthogonalization matrix computed in 0.00 sec.                                                                   
+                                                                                                                          
+* Info * SAD initial guess computed in 0.00 sec.                                                                          
+                                                                                                                          
+* Info * Starting Reduced Basis SCF calculation...                                                                        
+* Info * ...done. SCF energy in reduced basis set: -3071.236959979104 a.u. Time: 2.25 sec.                                
+                                                                                                                          
+* Info * Overlap matrix computed in 0.00 sec.                                                                             
+                                                                                                                          
+* Info * Kinetic energy matrix computed in 0.00 sec.                                                                      
+                                                                                                                          
+* Info * Nuclear potential matrix computed in 0.01 sec.                                                                   
+                                                                                                                          
+* Info * Orthogonalization matrix computed in 0.00 sec.                                                                   
+                                                                                                                          
+                                                                                                                          
+               Iter. | Hartree-Fock Energy | Energy Change | Gradient Norm | Max. Gradient | Density Change               
+               --------------------------------------------------------------------------------------------               
+                  1     -3071.269848251016    0.0000000000      0.10939045      0.01129968      0.00000000                
+                  2     -3071.271397716690   -0.0015494657      0.04012965      0.00399766      0.04873304                
+                  3     -3071.271601568604   -0.0002038519      0.00717401      0.00091611      0.01285475                
+                  4     -3071.271610150112   -0.0000085815      0.00174489      0.00021871      0.00334837                
+                  5     -3071.271610843878   -0.0000006938      0.00032096      0.00002790      0.00134607                
+                  6     -3071.271610872190   -0.0000000283      0.00009675      0.00000854      0.00029276                
+                  7     -3071.271610875244   -0.0000000031      0.00002204      0.00000155      0.00009204                
+                  8     -3071.271610875394   -0.0000000002      0.00000521      0.00000047      0.00002160                
+                  9     -3071.271610875397   -0.0000000000      0.00000123      0.00000010      0.00000201                
+                 10     -3071.271610875398   -0.0000000000      0.00000011      0.00000001      0.00000066                
+                                                                                                                          
+* Info * Checkpoint written to file: vlx_20240315_347cd3c2.scf.h5                                                         
+                                                                                                                          
+* Info * SCF tensors written to file: vlx_20240315_347cd3c2.scf.tensors.h5                                                
+                                                                                                                          
+               *** SCF converged in 10 iterations. Time: 5.32 sec.                                                        
+                                                                                                                          
+               Spin-Restricted Hartree-Fock:                                                                              
+               -----------------------------                                                                              
+               Total Energy                       :    -3071.2716108754 a.u.                                              
+               Electronic Energy                  :    -3230.0180409253 a.u.                                              
+               Nuclear Repulsion Energy           :      158.7464300499 a.u.                                              
+               ------------------------------------                                                                       
+               Gradient Norm                      :        0.0000001084 a.u.                                              
+                                                                                                                          
+                                                                                                                          
+               Ground State Information                                                                                   
+               ------------------------                                                                                   
+               Charge of Molecule            : -1.0                                                                       
+               Multiplicity (2S+1)           :  1.0                                                                       
+               Magnetic Quantum Number (M_S) :  0.0                                                                       
+                                                                                                                          
+                                                                                                                          
+                                                 Spin Restricted Orbitals                                                 
+                                                 ------------------------                                                 
+                                                                                                                          
+               Molecular Orbital No.  27:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.31669 a.u.                                                                  
+               (   1 C   1p0 :     0.18) (   6 Cl  1p0 :     0.26) (   6 Cl  2p0 :    -0.68)                              
+               (   6 Cl  3p0 :    -0.42)                                                                                  
+                                                                                                                          
+               Molecular Orbital No.  28:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.31652 a.u.                                                                  
+               (   1 C   1p-1:     0.18) (   6 Cl  1p-1:     0.26) (   6 Cl  2p-1:    -0.68)                              
+               (   6 Cl  3p-1:    -0.42)                                                                                  
+                                                                                                                          
+               Molecular Orbital No.  29:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.14271 a.u.                                                                  
+               (   5 Br  2p+1:    -0.32) (   5 Br  3p+1:     0.70) (   5 Br  4p+1:     0.44)                              
+                                                                                                                          
+               Molecular Orbital No.  30:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.14171 a.u.                                                                  
+               (   5 Br  2p0 :    -0.32) (   5 Br  3p0 :     0.70) (   5 Br  4p0 :     0.44)                              
+                                                                                                                          
+               Molecular Orbital No.  31:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.14171 a.u.                                                                  
+               (   5 Br  2p-1:    -0.32) (   5 Br  3p-1:     0.70) (   5 Br  4p-1:     0.44)                              
+                                                                                                                          
+               Molecular Orbital No.  32:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.32583 a.u.                                                                  
+               (   1 C   3s  :    -1.75) (   1 C   1p+1:     0.33) (   1 C   2p+1:     0.72)                              
+               (   2 H   2s  :     0.40) (   3 H   2s  :     0.40) (   4 H   2s  :     0.40)                              
+               (   6 Cl  3s  :     0.15) (   6 Cl  4s  :     0.76) (   6 Cl  2p+1:     0.29)                              
+               (   6 Cl  3p+1:     1.03)                                                                                  
+                                                                                                                          
+               Molecular Orbital No.  33:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.39557 a.u.                                                                  
+               (   1 C   3s  :     1.92) (   1 C   1p+1:     0.27) (   1 C   2p+1:     0.95)                              
+               (   2 H   2s  :    -1.11) (   3 H   2s  :    -1.11) (   4 H   2s  :    -1.11)                              
+               (   6 Cl  3s  :     0.33) (   6 Cl  3p+1:     0.35)                                                        
+                                                                                                                          
+               Molecular Orbital No.  34:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.43359 a.u.                                                                  
+               (   1 C   1p-1:    -0.31) (   1 C   2p-1:    -1.52) (   2 H   2s  :     0.94)                              
+               (   3 H   2s  :    -1.89) (   4 H   2s  :     0.94) (   6 Cl  3p-1:     0.25)                              
+                                                                                                                          
+               Molecular Orbital No.  35:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.43374 a.u.                                                                  
+               (   1 C   1p0 :    -0.31) (   1 C   2p0 :    -1.53) (   2 H   2s  :     1.64)                              
+               (   4 H   2s  :    -1.64) (   6 Cl  3p0 :     0.25)                                                        
+                                                                                                                          
+               Molecular Orbital No.  36:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.62464 a.u.                                                                  
+               (   1 C   3s  :     0.51) (   1 C   1p+1:    -0.19) (   5 Br  3s  :    -0.18)                              
+               (   5 Br  4s  :     1.59) (   5 Br  5s  :     1.66) (   6 Cl  4s  :    -0.23)                              
+               (   6 Cl  2p+1:     0.18) (   6 Cl  3p+1:    -0.37)                                                        
+                                                                                                                          
+                                                                                                                          
+                                                RESP Charges Driver Setup                                                 
+                                               ===========================                                                
+                                                                                                                          
+                                         Number of Conformers         :  1                                                
+                                         Number of Layers             :  4                                                
+                                         Points per Square Angstrom   :  1.0                                              
+                                         Total Number of Grid Points  :  794                                              
+                                                                                                                          
+                                                                                                                          
+                                                     First Stage Fit                                                      
+                                                    -----------------                                                     
+                                                                                                                          
+                                         Restraint Strength           :  0.0005                                           
+                                         Restrained Hydrogens         :  No                                               
+                                         Max. Number of Iterations    :  50                                               
+                                         Convergence Threshold (a.u.) :  1e-06                                            
+                                                                                                                          
+                                      *** Charge fitting converged in 9 iterations.                                       
+                                                                                                                          
+                                        No. | Atom |  Constraints | Charges (a.u.)                                        
+                                       --------------------------------------------                                       
+                                          1     C                     -0.144831                                           
+                                          2     H                      0.147086                                           
+                                          3     H                      0.148452                                           
+                                          4     H                      0.147086                                           
+                                          5     Br                    -0.984564                                           
+                                          6     Cl                    -0.313228                                           
+                                       --------------------------------------------                                       
+                                               Total Charge  : -1.000000                                                  
+                                                                                                                          
+                                                       Fit Quality                                                        
+                                                      -------------                                                       
+                                       Relative Root-Mean-Square Error  :  0.012083                                       
+                                                                                                                          
+                                                                                                                          
+                                                     Second Stage Fit                                                     
+                                                    ------------------                                                    
+                                                                                                                          
+                                         Restraint Strength           :  0.001                                            
+                                         Restrained Hydrogens         :  No                                               
+                                         Max. Number of Iterations    :  50                                               
+                                         Convergence Threshold (a.u.) :  1e-06                                            
+                                                                                                                          
+                                      *** Charge fitting converged in 5 iterations.                                       
+                                                                                                                          
+                                    No. | Atom | Frozen | Constraints | Charges (a.u.)                                    
+                                   ----------------------------------------------------                                   
+                                      1     C       No                    -0.136864                                       
+                                      2     H       No                     0.144885                                       
+                                      3     H       No         2           0.144885                                       
+                                      4     H       No         3           0.144885                                       
+                                      5     Br     Yes                    -0.984564                                       
+                                      6     Cl     Yes                    -0.313228                                       
+                                   ----------------------------------------------------                                   
+                                               Total Charge  : -1.000000                                                  
+                                                                                                                          
+                                                       Fit Quality                                                        
+                                                      -------------                                                       
+                                       Relative Root-Mean-Square Error  :  0.012115                                       
+                                                                                                                          
+                                       Reference:                                                                         
+                                       J. Phys. Chem. 1993, 97, 10269-10280.                                              
+                                                                                                                          
+* Info * Using 6-31G* basis set for RESP charges...                                                                       
+                                                                                                                          
+                                            Self Consistent Field Driver Setup                                            
+                                           ====================================                                           
+                                                                                                                          
+                   Wave Function Model             : Spin-Restricted Hartree-Fock                                         
+                   Initial Guess Model             : Superposition of Atomic Densities                                    
+                   Convergence Accelerator         : Two Level Direct Inversion of Iterative Subspace                     
+                   Max. Number of Iterations       : 50                                                                   
+                   Max. Number of Error Vectors    : 10                                                                   
+                   Convergence Threshold           : 1.0e-06                                                              
+                   ERI Screening Scheme            : Cauchy Schwarz + Density                                             
+                   ERI Screening Mode              : Dynamic                                                              
+                   ERI Screening Threshold         : 1.0e-12                                                              
+                   Linear Dependence Threshold     : 1.0e-06                                                              
+                                                                                                                          
+* Info * Nuclear repulsion energy: 169.6368506996 a.u.                                                                    
+                                                                                                                          
+* Info * Overlap matrix computed in 0.00 sec.                                                                             
+                                                                                                                          
+* Info * Kinetic energy matrix computed in 0.00 sec.                                                                      
+                                                                                                                          
+* Info * Nuclear potential matrix computed in 0.00 sec.                                                                   
+                                                                                                                          
+* Info * Orthogonalization matrix computed in 0.00 sec.                                                                   
+                                                                                                                          
+* Info * SAD initial guess computed in 0.00 sec.                                                                          
+                                                                                                                          
+* Info * Starting Reduced Basis SCF calculation...                                                                        
+* Info * ...done. SCF energy in reduced basis set: -3071.238090193006 a.u. Time: 2.24 sec.                                
+                                                                                                                          
+* Info * Overlap matrix computed in 0.00 sec.                                                                             
+                                                                                                                          
+* Info * Kinetic energy matrix computed in 0.00 sec.                                                                      
+                                                                                                                          
+* Info * Nuclear potential matrix computed in 0.01 sec.                                                                   
+                                                                                                                          
+* Info * Orthogonalization matrix computed in 0.00 sec.                                                                   
+                                                                                                                          
+                                                                                                                          
+               Iter. | Hartree-Fock Energy | Energy Change | Gradient Norm | Max. Gradient | Density Change               
+               --------------------------------------------------------------------------------------------               
+                  1     -3071.253837306608    0.0000000000      0.06579195      0.00836254      0.00000000                
+                  2     -3071.254374578655   -0.0005372720      0.01261597      0.00145127      0.01479510                
+                  3     -3071.254394049554   -0.0000194709      0.00420972      0.00037085      0.00509892                
+                  4     -3071.254397072953   -0.0000030234      0.00079475      0.00005316      0.00212286                
+                  5     -3071.254397201325   -0.0000001284      0.00022550      0.00001670      0.00060864                
+                  6     -3071.254397210027   -0.0000000087      0.00006619      0.00000464      0.00011458                
+                  7     -3071.254397211381   -0.0000000014      0.00001283      0.00000102      0.00005765                
+                  8     -3071.254397211436   -0.0000000001      0.00000218      0.00000018      0.00001361                
+                  9     -3071.254397211439   -0.0000000000      0.00000034      0.00000004      0.00000285                
+                                                                                                                          
+* Info * Checkpoint written to file: vlx_20240315_5093fb51.scf.h5                                                         
+                                                                                                                          
+* Info * SCF tensors written to file: vlx_20240315_5093fb51.scf.tensors.h5                                                
+                                                                                                                          
+               *** SCF converged in 9 iterations. Time: 4.81 sec.                                                         
+                                                                                                                          
+               Spin-Restricted Hartree-Fock:                                                                              
+               -----------------------------                                                                              
+               Total Energy                       :    -3071.2543972114 a.u.                                              
+               Electronic Energy                  :    -3240.8912479111 a.u.                                              
+               Nuclear Repulsion Energy           :      169.6368506996 a.u.                                              
+               ------------------------------------                                                                       
+               Gradient Norm                      :        0.0000003373 a.u.                                              
+                                                                                                                          
+                                                                                                                          
+               Ground State Information                                                                                   
+               ------------------------                                                                                   
+               Charge of Molecule            : -1.0                                                                       
+               Multiplicity (2S+1)           :  1.0                                                                       
+               Magnetic Quantum Number (M_S) :  0.0                                                                       
+                                                                                                                          
+                                                                                                                          
+                                                 Spin Restricted Orbitals                                                 
+                                                 ------------------------                                                 
+                                                                                                                          
+               Molecular Orbital No.  27:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.28810 a.u.                                                                  
+               (   5 Br  2p-1:    -0.33) (   5 Br  3p-1:     0.75) (   5 Br  4p-1:     0.38)                              
+                                                                                                                          
+               Molecular Orbital No.  28:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.28795 a.u.                                                                  
+               (   5 Br  2p0 :    -0.33) (   5 Br  3p0 :     0.75) (   5 Br  4p0 :     0.38)                              
+                                                                                                                          
+               Molecular Orbital No.  29:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.14710 a.u.                                                                  
+               (   6 Cl  1p+1:     0.26) (   6 Cl  2p+1:    -0.66) (   6 Cl  3p+1:    -0.48)                              
+                                                                                                                          
+               Molecular Orbital No.  30:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.14671 a.u.                                                                  
+               (   6 Cl  1p-1:     0.26) (   6 Cl  2p-1:    -0.66) (   6 Cl  3p-1:    -0.48)                              
+                                                                                                                          
+               Molecular Orbital No.  31:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 2.000 Energy:   -0.14671 a.u.                                                                  
+               (   6 Cl  1p0 :     0.26) (   6 Cl  2p0 :    -0.66) (   6 Cl  3p0 :    -0.48)                              
+                                                                                                                          
+               Molecular Orbital No.  32:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.27654 a.u.                                                                  
+               (   1 C   3s  :    -1.31) (   1 C   1p+1:    -0.34) (   1 C   2p+1:    -0.68)                              
+               (   2 H   2s  :     0.22) (   3 H   2s  :     0.22) (   4 H   2s  :     0.22)                              
+               (   5 Br  4s  :    -0.22) (   5 Br  5s  :     0.55) (   5 Br  3p+1:    -0.29)                              
+               (   5 Br  4p+1:    -1.01)                                                                                  
+                                                                                                                          
+               Molecular Orbital No.  33:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.38497 a.u.                                                                  
+               (   1 C   3s  :     2.13) (   1 C   1p+1:    -0.24) (   1 C   2p+1:    -0.69)                              
+               (   2 H   2s  :    -1.07) (   3 H   2s  :    -1.08) (   4 H   2s  :    -1.07)                              
+               (   5 Br  4s  :    -0.62) (   5 Br  5s  :    -0.45)                                                        
+                                                                                                                          
+               Molecular Orbital No.  34:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.42723 a.u.                                                                  
+               (   1 C   1p0 :    -0.29) (   1 C   2p0 :    -1.50) (   2 H   2s  :     1.60)                              
+               (   4 H   2s  :    -1.60) (   5 Br  4p0 :     0.33)                                                        
+                                                                                                                          
+               Molecular Orbital No.  35:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.42726 a.u.                                                                  
+               (   1 C   1p-1:    -0.29) (   1 C   2p-1:    -1.51) (   2 H   2s  :     0.93)                              
+               (   3 H   2s  :    -1.85) (   4 H   2s  :     0.93) (   5 Br  4p-1:     0.33)                              
+                                                                                                                          
+               Molecular Orbital No.  36:                                                                                 
+               --------------------------                                                                                 
+               Occupation: 0.000 Energy:    0.55000 a.u.                                                                  
+               (   1 C   3s  :    -0.48) (   1 C   1p+1:     0.18) (   1 C   2p+1:     0.50)                              
+               (   2 H   2s  :     0.44) (   3 H   2s  :     0.44) (   4 H   2s  :     0.44)                              
+               (   5 Br  4s  :    -1.47) (   5 Br  5s  :    -1.90) (   5 Br  2p+1:    -0.17)                              
+               (   5 Br  3p+1:     0.55)                                                                                  
+                                                                                                                          
+                                                                                                                          
+                                                RESP Charges Driver Setup                                                 
+                                               ===========================                                                
+                                                                                                                          
+                                         Number of Conformers         :  1                                                
+                                         Number of Layers             :  4                                                
+                                         Points per Square Angstrom   :  1.0                                              
+                                         Total Number of Grid Points  :  788                                              
+                                                                                                                          
+                                                                                                                          
+                                                     First Stage Fit                                                      
+                                                    -----------------                                                     
+                                                                                                                          
+                                         Restraint Strength           :  0.0005                                           
+                                         Restrained Hydrogens         :  No                                               
+                                         Max. Number of Iterations    :  50                                               
+                                         Convergence Threshold (a.u.) :  1e-06                                            
+                                                                                                                          
+                                      *** Charge fitting converged in 10 iterations.                                      
+                                                                                                                          
+                                        No. | Atom |  Constraints | Charges (a.u.)                                        
+                                       --------------------------------------------                                       
+                                          1     C                     -0.330903                                           
+                                          2     H                      0.201074                                           
+                                          3     H                      0.198158                                           
+                                          4     H                      0.201074                                           
+                                          5     Br                    -0.287299                                           
+                                          6     Cl                    -0.982105                                           
+                                       --------------------------------------------                                       
+                                               Total Charge  : -1.000000                                                  
+                                                                                                                          
+                                                       Fit Quality                                                        
+                                                      -------------                                                       
+                                       Relative Root-Mean-Square Error  :  0.014850                                       
+                                                                                                                          
+                                                                                                                          
+                                                     Second Stage Fit                                                     
+                                                    ------------------                                                    
+                                                                                                                          
+                                         Restraint Strength           :  0.001                                            
+                                         Restrained Hydrogens         :  No                                               
+                                         Max. Number of Iterations    :  50                                               
+                                         Convergence Threshold (a.u.) :  1e-06                                            
+                                                                                                                          
+                                      *** Charge fitting converged in 5 iterations.                                       
+                                                                                                                          
+                                    No. | Atom | Frozen | Constraints | Charges (a.u.)                                    
+                                   ----------------------------------------------------                                   
+                                      1     C       No                    -0.320208                                       
+                                      2     H       No                     0.196537                                       
+                                      3     H       No         2           0.196537                                       
+                                      4     H       No         3           0.196537                                       
+                                      5     Br     Yes                    -0.287299                                       
+                                      6     Cl     Yes                    -0.982105                                       
+                                   ----------------------------------------------------                                   
+                                               Total Charge  : -1.000000                                                  
+                                                                                                                          
+                                                       Fit Quality                                                        
+                                                      -------------                                                       
+                                       Relative Root-Mean-Square Error  :  0.014901                                       
+                                                                                                                          
+                                       Reference:                                                                         
+                                       J. Phys. Chem. 1993, 97, 10269-10280.                                              
+                                                                                                                          
+Lambda:  [0.    0.01  0.02  0.03  0.04  0.05  0.06  0.07  0.08  0.09  0.1   0.125
+ 0.15  0.175 0.2   0.225 0.25  0.275 0.3   0.325 0.35  0.375 0.4   0.425
+ 0.45  0.46  0.47  0.48  0.49  0.5   0.51  0.52  0.53  0.54  0.55  0.575
+ 0.6   0.625 0.65  0.675 0.7   0.725 0.75  0.775 0.8   0.81  0.82  0.83
+ 0.84  0.85  0.86  0.87  0.88  0.89  0.9   0.91  0.92  0.93  0.94  0.95
+ 0.96  0.97  0.98  0.99  1.   ]
+Total lambda points:  65
+Snapshots per lambda:  100.0
+Snapshots to be recorded:  6500.0
+Total simulation steps:  13620000
+System time per snapshot:  2.0  ps
+System time per frame:  200.0  ps
+Total system time:  13000.0  ps
+lambda = 0.0
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.01, estimated time remaining: 5 minute(s), 59 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.02, estimated time remaining: 4 minute(s), 35 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.03, estimated time remaining: 4 minute(s), 12 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.04, estimated time remaining: 3 minute(s), 53 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.05, estimated time remaining: 3 minute(s), 42 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.06, estimated time remaining: 3 minute(s), 33 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.07, estimated time remaining: 3 minute(s), 25 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.08, estimated time remaining: 3 minute(s), 19 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.09, estimated time remaining: 3 minute(s), 14 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.1, estimated time remaining: 3 minute(s), 8 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.125, estimated time remaining: 3 minute(s), 4 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.15, estimated time remaining: 2 minute(s), 59 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.175, estimated time remaining: 2 minute(s), 55 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.2, estimated time remaining: 2 minute(s), 51 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.225, estimated time remaining: 2 minute(s), 46 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.25, estimated time remaining: 2 minute(s), 42 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.275, estimated time remaining: 2 minute(s), 39 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.3, estimated time remaining: 2 minute(s), 35 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.325, estimated time remaining: 2 minute(s), 31 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.35, estimated time remaining: 2 minute(s), 28 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.375, estimated time remaining: 2 minute(s), 24 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.4, estimated time remaining: 2 minute(s), 20 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.425, estimated time remaining: 2 minute(s), 17 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.45, estimated time remaining: 2 minute(s), 13 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.46, estimated time remaining: 2 minute(s), 10 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.47, estimated time remaining: 2 minute(s), 7 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.48, estimated time remaining: 2 minute(s), 3 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.49, estimated time remaining: 2 minute(s), 0 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.5, estimated time remaining: 1 minute(s), 56 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.51, estimated time remaining: 1 minute(s), 53 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.52, estimated time remaining: 1 minute(s), 50 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.53, estimated time remaining: 1 minute(s), 46 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.54, estimated time remaining: 1 minute(s), 43 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.55, estimated time remaining: 1 minute(s), 40 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.575, estimated time remaining: 1 minute(s), 36 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.6, estimated time remaining: 1 minute(s), 33 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.625, estimated time remaining: 1 minute(s), 30 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.65, estimated time remaining: 1 minute(s), 27 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.675, estimated time remaining: 1 minute(s), 23 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.7, estimated time remaining: 1 minute(s), 20 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.725, estimated time remaining: 1 minute(s), 17 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.75, estimated time remaining: 1 minute(s), 14 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.775, estimated time remaining: 1 minute(s), 10 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.8, estimated time remaining: 1 minute(s), 7 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.81, estimated time remaining: 1 minute(s), 4 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.82, estimated time remaining: 1 minute(s), 1 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.83, estimated time remaining: 57 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.84, estimated time remaining: 54 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.85, estimated time remaining: 51 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.86, estimated time remaining: 48 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.87, estimated time remaining: 44 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.88, estimated time remaining: 41 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.89, estimated time remaining: 38 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.9, estimated time remaining: 35 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.91, estimated time remaining: 32 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.92, estimated time remaining: 28 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.93, estimated time remaining: 25 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.94, estimated time remaining: 22 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.95, estimated time remaining: 19 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.96, estimated time remaining: 15 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.97, estimated time remaining: 12 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.98, estimated time remaining: 9 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 0.99, estimated time remaining: 6 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+lambda = 1.0, estimated time remaining: 3 second(s)
+Minimizing energy
+Running equilliberation
+Running sampling
+Merging output files
+merging pdb files
+Lambda =  0.0
+Lambda =  0.01
+Lambda =  0.02
+Lambda =  0.03
+Lambda =  0.04
+Lambda =  0.05
+Lambda =  0.06
+Lambda =  0.07
+Lambda =  0.08
+Lambda =  0.09
+Lambda =  0.1
+Lambda =  0.125
+Lambda =  0.15
+Lambda =  0.175
+Lambda =  0.2
+Lambda =  0.225
+Lambda =  0.25
+Lambda =  0.275
+Lambda =  0.3
+Lambda =  0.325
+Lambda =  0.35
+Lambda =  0.375
+Lambda =  0.4
+Lambda =  0.425
+Lambda =  0.45
+Lambda =  0.46
+Lambda =  0.47
+Lambda =  0.48
+Lambda =  0.49
+Lambda =  0.5
+Lambda =  0.51
+Lambda =  0.52
+Lambda =  0.53
+Lambda =  0.54
+Lambda =  0.55
+Lambda =  0.575
+Lambda =  0.6
+Lambda =  0.625
+Lambda =  0.65
+Lambda =  0.675
+Lambda =  0.7
+Lambda =  0.725
+Lambda =  0.75
+Lambda =  0.775
+Lambda =  0.8
+Lambda =  0.81
+Lambda =  0.82
+Lambda =  0.83
+Lambda =  0.84
+Lambda =  0.85
+Lambda =  0.86
+Lambda =  0.87
+Lambda =  0.88
+Lambda =  0.89
+Lambda =  0.9
+Lambda =  0.91
+Lambda =  0.92
+Lambda =  0.93
+Lambda =  0.94
+Lambda =  0.95
+Lambda =  0.96
+Lambda =  0.97
+Lambda =  0.98
+Lambda =  0.99
+Lambda =  1.0
+merging ETV files
+Recalculating Lambda 0.0
+Recalculating Lambda 0.01, estimated time remaining: 22 second(s)
+Recalculating Lambda 0.02, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.03, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.04, estimated time remaining: 20 second(s)
+Recalculating Lambda 0.05, estimated time remaining: 20 second(s)
+Recalculating Lambda 0.06, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.07, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.08, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.09, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.1, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.125, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.15, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.175, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.2, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.225, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.25, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.275, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.3, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.325, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.35, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.375, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.4, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.425, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.45, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.46, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.47, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.48, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.49, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.5, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.51, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.52, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.53, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.54, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.55, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.575, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.6, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.625, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.65, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.675, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.7, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.725, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.75, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.775, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.8, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.81, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.82, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.83, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.84, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.85, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.86, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.87, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.88, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.89, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.9, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.91, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.92, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.93, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.94, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.95, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.96, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.97, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.98, estimated time remaining: 21 second(s)
+Recalculating Lambda 0.99, estimated time remaining: 21 second(s)
+Recalculating Lambda 1.0, estimated time remaining: 21 second(s)
