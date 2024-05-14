@@ -1,4 +1,4 @@
-# Project Title
+# Empirical Valence Bond in Python with OpenMM and VeloxChem
 
 ## Description
 
