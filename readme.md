@@ -25,6 +25,3 @@ This project uses a `EVB.yml` file for managing dependencies. To install, follow
 
 ## Usage
 After installation, you can run the code of the project, see the python notebook for details
-
-## License
-This project is not yet licensed in any way
